@@ -17,7 +17,7 @@ namespace Flujo
         }
 
 
-        //Esto es citas
+        //Esto es citas api
         public async Task<Guid> AgregarCitas(CitasRequest request)
         {
             return await _citasDA.AgregarCitas(request);
